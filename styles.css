@@ -1,0 +1,6 @@
+.basic:hover{
+    width: fit-content;
+    height: fit-content;
+    transition-duration: 1s;
+    transform: rotateY(360deg);
+}
