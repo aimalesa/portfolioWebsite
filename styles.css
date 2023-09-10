@@ -4,3 +4,27 @@
     transition-duration: 1s;
     transform: rotateY(360deg);
 }
+.nav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+.navItem{
+    float: left;
+}
+.navItemLink{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.navItemLink:hover {
+    background-color: #111;
+}
+.navItemActive{
+    background-color: #111;
+
+}
