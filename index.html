@@ -4,16 +4,17 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script> 
+    $(function(){
+      $("#navMenu").load("navMenu.html"); 
+    });
+  </script>
   <title>Aimal Esa</title>
   <link rel="stylesheet" type="text/css" href="./styles.css" />
 </head>
 <body>
-  <nav>
-    <ul class="nav">
-      <li class="navItem"><a class="navItemActive navItemLink" href="index.html">Aimal Esa</a></li>
-      <li class="navItem"><a class="navItemLink" href="projects.html">Projects</a></li>
-    </ul>
-  </nav>
+  <div id="navMenu"></div>
   <header>
     <h1 class="basic"> Aimal Esa </h1> 
   </header>
