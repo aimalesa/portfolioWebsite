@@ -2,9 +2,13 @@
 .mySlides {display: none}
 img {vertical-align: middle;}
 
+#SpreadsheetSlideshow {
+  float: left;
+}
+
 /* Slideshow container */
 .slideshow-container {
-  max-width: 750px;
+  max-width: 450px;
   position: relative;
   margin: auto;
 }
