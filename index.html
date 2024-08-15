@@ -1,23 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Aimal Esa</title>
-  <link rel="stylesheet" type="text/css" href="./styles.css" />
-</head>
-<body>
-  <nav>
-    <ul class="nav">
-      <li class="name">
-        <a href="index.html" class="navItemLink">Aimal Esa</a>
-      </li>
-      <li class="navItem navItemActive"><a class="navItemLink" href="index.html">Home</a></li>
-      <li class="navItem"><a class="navItemLink" href="projects.html">Projects</a></li>
-    </ul>
-  </nav>
-  <main class="container">
-  </main>
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aimal Esa</title>
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
+  </head>
+  <body>
+    <header class="bg-dark"> <!-- Menu -->
+      <div class="container flex space-between gap-2 md-flex-column align-center">
+        <div class="flex flex-column w-40 md-w-100 center">
+          <div class="flex space-between">
+            <h1 class="large-text white pb-large">Aimal Esa</h1>
+            <div class="flex space-between socials">
+              <a href="http://github.com/aimalesa" title="@aimalesa on GitHub" target="_blank"><svg viewBox="0 0 24 24" stroke="#94a1b2" fill="none"  class="social"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"></path></svg></a>
+              <a href="https://www.linkedin.com/in/aimalesa" title="@aimalesa on GitHub" target="_blank"><svg viewBox="0 0 24 24" stroke="#94a1b2" fill="none" class="social"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path><circle cx="4" cy="4" r="2"></circle></svg></a>
+            </div>
+          </div>
+          <p class="medium-text pb-small md-text-center"> <!-- Description -->
+            Computer Science student at the University of Utah. 
+          </p>
+          <p class="medium-text pb-small md-text-center"> <!-- Description -->
+            Software Engineer Intern at Zions Bancorporation.
+          </p>
+        </div>
+        <div> <!-- Photo -->
+          <img class="pic"src="/CSClipart.png">
+        </div>
+      </div>
+    </header>
+
+    <div class="bg-light"> <!-- Projects -->
+      <div class="container"> 
+        <h2 class="bold large-text white pb-large">
+          Projects
+        </h2>
+        <div class="flex flex-wrap gap-2 center"> <!-- Project Cards-->
+
+          <div class="card bg-dark">
+            <h3 class="card-title pb-small">
+              ZiFi Website
+            </h3>
+            <!-- <ul class="pb-small">
+              <li></li>
+            </ul> -->
+            <small class="card-footer">
+              Angular | GraphQL | Spring Boot
+            </small>
+          </div>
+
+          <div class="card bg-dark">
+            <h3 class="card-title pb-small">
+              Online Chat Room
+            </h3>
+            <!-- <ul class="pb-small">
+              <li></li>
+            </ul> -->
+            <small class="card-footer">
+              React | FastAPI | AWS
+            </small>
+          </div>
+
+          <div class="card bg-dark">
+            <h3 class="card-title pb-small">
+              Online Grading Software
+            </h3>
+            <!-- <ul class="pb-small">
+              <li></li>
+            </ul> -->
+            <small class="card-footer">
+              Django | AWS
+            </small>
+          </div>
+
+          <div class="card bg-dark">
+            <h3 class="card-title pb-small">
+              OOP-Spreadsheet
+            </h3>
+            <!-- <ul class="pb-small">
+              <li></li>
+            </ul> -->
+            <small class="card-footer">
+              C# | MAUI
+            </small>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <footer class="bg-dark"> <!-- Footer -->
+      <div class="container">
+        <div class="flex space-between small-text">
+          <div class="flex flex-column">
+            <p class="light-blue pb-small">
+              Personal Website and Portfolio by Aimal Esa.
+            </p>
+            <!-- <small class="light-blue">© 2024 Aimal Esa, All rights reserved </small> -->
+          </div>
+          <div class="flex flex-column" style="min-width: 100px;">
+            <p class="red pb-small">
+              aimalesa.com
+            </p>
+            <div class="flex space-between">
+              <a href="https://github.com/aimalesa" target="_blank" class="light-blue">Github</a>
+              <a href="https://www.linkedin.com/in/aimalesa/" target="_blank" class="light-blue">LinkedIn</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+  </body>
 </html>
